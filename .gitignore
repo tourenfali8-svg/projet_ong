@@ -1,0 +1,20 @@
+# Dépendances Composer
+/vendor/
+
+# Fichiers d'environnement
+.env
+
+# Fichiers de stockage et uploads
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/storage/exports/*
+!/storage/exports/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Fichiers système & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

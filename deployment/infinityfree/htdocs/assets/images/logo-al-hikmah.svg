@@ -1,0 +1,69 @@
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Logo ONG AL HIKMAH</title>
+  <desc id="desc">Logo circulaire de l'ONG AL HIKMAH représentant un arbre, un livre ouvert et le mot HERA.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f3efe9"/>
+      <stop offset="100%" stop-color="#ece7e0"/>
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <linearGradient id="treeGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e8a431"/>
+      <stop offset="100%" stop-color="#b95e17"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#bgGrad)"/>
+
+  <g transform="translate(135 0)">
+    <circle cx="315" cy="355" r="295" fill="#f8f4ee" stroke="#a76f2d" stroke-width="14"/>
+    <circle cx="315" cy="355" r="270" fill="none" stroke="#0b5d4c" stroke-width="8" opacity="0.55"/>
+
+    <g>
+      <path d="M280 440 L310 310 L350 440 Z" fill="#0b5d4c" opacity="0.96"/>
+      <path d="M355 440 L375 312 L420 440 Z" fill="#0b5d4c" opacity="0.90"/>
+      <path d="M215 442 L260 298 L310 440 Z" fill="#0b5d4c" opacity="0.90"/>
+      <path d="M430 442 L465 290 L515 440 Z" fill="#0b5d4c" opacity="0.90"/>
+
+      <ellipse cx="315" cy="255" rx="88" ry="78" fill="#0e6d54"/>
+      <ellipse cx="250" cy="295" rx="70" ry="63" fill="#0e6d54"/>
+      <ellipse cx="385" cy="295" rx="70" ry="63" fill="#0e6d54"/>
+      <ellipse cx="210" cy="360" rx="56" ry="50" fill="#0d6c53"/>
+      <ellipse cx="425" cy="360" rx="56" ry="50" fill="#0d6c53"/>
+      <ellipse cx="240" cy="235" rx="38" ry="34" fill="#dca43d"/>
+      <ellipse cx="390" cy="235" rx="38" ry="34" fill="#dca43d"/>
+      <ellipse cx="315" cy="205" rx="40" ry="36" fill="#dca43d"/>
+
+      <g fill="#f4d16b" stroke="#f5d76c" stroke-width="4">
+        <path d="M315 155 L323 180 L350 183 L328 198 L335 225 L315 208 L295 225 L302 198 L280 183 L307 180 Z"/>
+        <path d="M250 255 L258 280 L285 283 L263 298 L270 325 L250 310 L230 325 L237 298 L215 283 L242 280 Z"/>
+        <path d="M380 255 L388 280 L415 283 L393 298 L400 325 L380 310 L360 325 L367 298 L345 283 L372 280 Z"/>
+      </g>
+
+      <path d="M307 300 C280 310, 272 325, 248 355 C230 375, 218 422, 245 442 C281 468, 313 450, 315 418 C317 456, 349 466, 384 444 C410 428, 402 388, 384 360 C362 327, 348 326, 307 300 Z" fill="#f0a54b" opacity="0.93"/>
+
+      <path d="M320 440 L316 519 L365 527 L347 620 L290 620 L270 527 L320 520 Z" fill="url(#treeGrad)"/>
+
+      <path d="M320 313 C270 330, 248 360, 255 410 C261 452, 300 486, 318 499 C334 488, 356 456, 365 421 C374 386, 362 333, 320 313 Z" fill="#0b5d4c" opacity="0.28"/>
+
+      <path d="M272 425 C216 400, 188 350, 172 326 C158 304, 118 308, 105 336 C96 352, 102 376, 123 390 C153 412, 194 420, 210 445 C228 473, 250 487, 272 425 Z" fill="#0b5d4c" opacity="0.95"/>
+      <path d="M368 425 C424 400, 452 350, 468 326 C482 304, 522 308, 535 336 C544 352, 538 376, 517 390 C487 412, 446 420, 430 445 C412 473, 390 487, 368 425 Z" fill="#0b5d4c" opacity="0.95"/>
+    </g>
+
+    <g>
+      <path d="M100 520 C170 470, 260 470, 316 520 L316 650 C255 610, 175 609, 100 650 Z" fill="url(#bookGrad)" stroke="#a76f2d" stroke-width="10"/>
+      <path d="M530 520 C460 470, 370 470, 316 520 L316 650 C376 610, 456 610, 530 650 Z" fill="url(#bookGrad)" stroke="#a76f2d" stroke-width="10"/>
+      <path d="M103 520 L316 635 L530 520" fill="none" stroke="#a76f2d" stroke-width="8" stroke-linecap="round"/>
+      <path d="M316 520 L316 650" stroke="#a76f2d" stroke-width="8"/>
+      <path d="M120 545 C170 520, 255 520, 316 550" fill="none" stroke="#0b5d4c" stroke-width="6" opacity="0.7"/>
+      <path d="M510 545 C460 520, 375 520, 316 550" fill="none" stroke="#0b5d4c" stroke-width="6" opacity="0.7"/>
+    </g>
+
+    <text x="315" y="690" text-anchor="middle" font-size="180" font-weight="900" letter-spacing="2" font-family="Georgia, serif" fill="#0b5d4c">HERA</text>
+    <text x="315" y="760" text-anchor="middle" font-size="34" font-weight="800" font-family="Arial, Helvetica, sans-serif" fill="#0b5d4c">ONG AL-HIKMAH — ÉDUCATION, RACINES ET AVENIR</text>
+    <text x="315" y="810" text-anchor="middle" font-size="30" font-style="italic" font-family="Georgia, serif" fill="#a76f2d">« S’enraciner dans les valeurs, s’élever par le savoir »</text>
+  </g>
+</svg>

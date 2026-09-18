@@ -1,0 +1,81 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4efe2"/>
+      <stop offset="100%" stop-color="#f5f1d6"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e3b958"/>
+      <stop offset="100%" stop-color="#c88d2a"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0f6c57"/>
+      <stop offset="100%" stop-color="#0b4c41"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e96a3a"/>
+      <stop offset="100%" stop-color="#d6522f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <g opacity="0.35">
+    <path d="M915 70c35 0 60 25 60 60s-25 60-60 60-60-25-60-60 25-60 60-60zm0 120c45 0 80 35 80 80s-35 80-80 80-80-35-80-80 35-80 80-80z" fill="#d4b765"/>
+    <path d="M930 150c20 0 38 16 38 36s-16 36-38 36-38-16-38-36 16-36 38-36zm0 70c16 0 30 12 30 28s-14 28-30 28-30-12-30-28 14-28 30-28z" fill="#f3db95"/>
+  </g>
+
+  <g transform="translate(90 0)">
+    <g opacity="0.95">
+      <rect x="140" y="110" width="160" height="120" rx="80" fill="#d38d2e" opacity="0.7"/>
+      <circle cx="220" cy="170" r="60" fill="#f4f0e9" opacity="0.5"/>
+      <path d="M190 165 L220 115 L250 165" fill="none" stroke="#c38c2a" stroke-width="10" stroke-linecap="round"/>
+    </g>
+
+    <g opacity="0.95">
+      <path d="M230 240 C320 125, 515 125, 605 240" fill="none" stroke="#0f6c57" stroke-width="14" stroke-linecap="rounded"/>
+      <path d="M257 242 L342 88 L430 242" fill="#a6b5a5" opacity="0.8"/>
+      <path d="M430 242 L530 90 L610 242" fill="#89958a" opacity="0.85"/>
+      <path d="M595 245 H760 L720 392 H635 Z" fill="#d9d3c8" opacity="0.7"/>
+      <path d="M590 245 L518 400 L720 400 L640 245 Z" fill="#cfc4ae" opacity="0.8"/>
+      <path d="M350 250 L415 325 L465 250" fill="#d7d0c0" opacity="0.9"/>
+      <path d="M259 245 L330 420 L430 420 L370 245" fill="#d7d0c0" opacity="0.9"/>
+      <path d="M387 245 L455 410 L515 410 L470 245" fill="#d7d0c0" opacity="0.9"/>
+      <path d="M440 245 L515 420 L610 420 L560 245" fill="#d7d0c0" opacity="0.9"/>
+    </g>
+
+    <g>
+      <path d="M0 260 L260 220 L640 220 L900 260 L900 650 L0 650 Z" fill="url(#orange)" opacity="0.96"/>
+      <path d="M205 520 L332 430 L470 520 L470 650 L205 650 Z" fill="#f0f0f1" opacity="0.85"/>
+      <path d="M475 545 L690 430 L920 545 L920 650 L475 650 Z" fill="#f0f0f1" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(140 90)">
+      <path d="M10 115 C150 50, 440 50, 550 115" fill="none" stroke="#d7ba72" stroke-width="20" stroke-linecap="round"/>
+      <path d="M245 120 L290 0 L335 120" fill="#d7ba72" opacity="0.7"/>
+      <circle cx="290" cy="50" r="26" fill="#d7ba72"/>
+      <path d="M150 205 L290 135 L430 205" fill="none" stroke="#d7ba72" stroke-width="18" stroke-linecap="round"/>
+      <path d="M220 182 L267 122 L315 182" fill="#0f6c57" opacity="0.95"/>
+      <path d="M280 182 L330 122 L377 182" fill="#0f6c57" opacity="0.95"/>
+      <path d="M65 180 L110 128 L150 180" fill="#0f6c57" opacity="0.95"/>
+      <path d="M410 180 L455 128 L500 180" fill="#0f6c57" opacity="0.95"/>
+      <path d="M145 260 L220 215 L290 260 L362 215 L435 260" fill="none" stroke="#d7ba72" stroke-width="19" stroke-linecap="round"/>
+      <path d="M292 160 L292 230" stroke="#d7ba72" stroke-width="10" stroke-linecap="round"/>
+      <path d="M290 230 C270 260, 250 285, 265 320 C280 355, 306 365, 290 420" fill="none" stroke="#d7ba72" stroke-width="18" stroke-linecap="round"/>
+      <path d="M290 230 C330 260, 347 288, 334 319 C320 353, 295 365, 309 420" fill="none" stroke="#d7ba72" stroke-width="18" stroke-linecap="round"/>
+    </g>
+
+    <g>
+      <text x="600" y="200" text-anchor="middle" font-size="110" font-weight="900" font-family="Georgia, serif" fill="#0b4c41" letter-spacing="2">RAMADAN</text>
+      <text x="600" y="330" text-anchor="middle" font-size="110" font-weight="900" font-family="Georgia, serif" fill="#d85d35" letter-spacing="2">TAFSIR</text>
+      <text x="780" y="330" font-size="58" font-weight="700" font-family="Georgia, serif" fill="#0b4c41">2026</text>
+      <text x="600" y="425" text-anchor="middle" font-size="40" font-weight="800" font-family="Arial, Helvetica, sans-serif" fill="#0b4c41">MOSQUÉE DE CHEICK DOSSO</text>
+      <text x="600" y="470" text-anchor="middle" font-size="34" font-weight="700" font-family="Arial, Helvetica, sans-serif" fill="#0b4c41">ABOBO ANADOR</text>
+      <text x="600" y="530" text-anchor="middle" font-size="42" font-weight="700" font-family="Arial, Helvetica, sans-serif" fill="#0b4c41">CHEICK ALI SANOGO</text>
+      <text x="600" y="575" text-anchor="middle" font-size="27" font-weight="700" font-family="Arial, Helvetica, sans-serif" fill="#0b4c41">Secrétaire général du CSMCI</text>
+      <g transform="translate(790 510)">
+        <rect x="0" y="0" width="175" height="84" rx="32" fill="#d85d35" opacity="0.9"/>
+        <text x="87" y="52" text-anchor="middle" font-size="34" font-weight="900" font-family="Arial, Helvetica, sans-serif" fill="#fff">PAR</text>
+      </g>
+    </g>
+  </g>
+</svg>

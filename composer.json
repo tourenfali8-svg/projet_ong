@@ -1,0 +1,24 @@
+{
+  "name": "ong/ong-crm-platform",
+  "description": "Plateforme web ONG et CRM de gestion des dons, donateurs, actions et bénévoles en PHP",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ONG Platform Team"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "serve": "php -S localhost:8000 -t public",
+    "seed": "php database/seeders/DatabaseSeeder.php"
+  }
+}

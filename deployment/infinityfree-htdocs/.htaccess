@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Les fichiers internes restent protégés même sur un hébergeur qui impose htdocs.
+    RewriteRule ^(?:config|src|views|storage|database)(?:/|$) - [F,L,NC]
+    RewriteRule ^\.env$ - [F,L,NC]
+
+    # Si le fichier ou le dossier demandé existe réellement, le servir directement
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Sinon, rediriger toutes les requêtes vers index.php
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
